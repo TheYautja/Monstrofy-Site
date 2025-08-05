@@ -1,0 +1,41 @@
+.banner {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./Banner.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 149, 10);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.bannerTitulo {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.bannerBotao {
+  background-color: #af0808;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border-radius: 30px;
+  cursor: crosshair;
+  transition: background-color 0.3s ease;
+}
+
+.bannerBotao:hover {
+  background-color: #981010;
+}
