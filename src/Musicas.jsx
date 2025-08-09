@@ -1,16 +1,7 @@
-
 import React, { useRef, useState,  } from "react";
 import "./Musicas.css";
 
-
-
-
-
-
 //{ id: , titulo: " ", artista: " ", capa: " ", genero: " ", audio: " " },
-
-
-
 
 function Musicas(props) {
   const {x} = props;
@@ -27,7 +18,6 @@ function Musicas(props) {
   const [playlistSelecionada, setPlaylistSelecionada] = useState("");
 
   
-
   const trocarFoto = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -44,10 +34,7 @@ function Musicas(props) {
     }
   };
 
-
-  const deletarPlaylist = () =>{
-
-  }
+//const deletarPlaylist = () =>{}
 
   const adicionarMusicaNaPlaylist = (idMusica) => {
     if (!playlistSelecionada) return;
