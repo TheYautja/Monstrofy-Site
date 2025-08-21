@@ -3,7 +3,6 @@ import Musicas from './Musicas.jsx';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-
 function App () {
   const [musicas, setMusicas] = useState([]);
 

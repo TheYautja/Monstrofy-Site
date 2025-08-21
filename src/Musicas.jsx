@@ -1,4 +1,3 @@
-import React from "react";
 import "./Musicas.css";
 import { useFuncoes } from "./Funcoes";
 
